@@ -1,0 +1,46 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@i01n01>
+Subject: Job 18404228: <#BSUB -q 'e52692v2ib!';#BSUB -n 4;#BSUB -e err; python generate-new.py> in cluster <hpc> Done
+
+Job <#BSUB -q 'e52692v2ib!';#BSUB -n 4;#BSUB -e err; python generate-new.py> was submitted from host <login1> by user <js_wangjj> in cluster <hpc>.
+Job was executed on host(s) <4*i01n01>, in queue <e52692v2ib!>, as user <js_wangjj> in cluster <hpc>.
+</fs08/home/js_wangjj> was used as the home directory.
+</fs08/home/js_wangjj/generate-new> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -q 'e52692v2ib!'
+#BSUB -n 4
+#BSUB -e err
+
+python generate-new.py
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1.06 sec.
+    Max Memory :                                 20 MB
+    Average Memory :                             20.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   30 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
